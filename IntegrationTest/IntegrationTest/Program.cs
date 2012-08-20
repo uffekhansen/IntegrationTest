@@ -14,7 +14,7 @@ namespace IntegrationTest
 		public Guid Id { get; set; }
 		public string name { get; set; }
 
-		public void DoSomeThingFancy(int count, string newName, string formerName)
+		public void DoSomeThingFancy(int count, string formerName)
 		{
 		}
 	}
